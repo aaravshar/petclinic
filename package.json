@@ -1,0 +1,12 @@
+{
+  "name": "vet-clinic",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cd src/frontend && npx playwright test",
+    "test:public": "cd src/frontend && npx playwright test",
+    "test:private": "cd src/frontend && npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
